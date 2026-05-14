@@ -1,3 +1,11 @@
+const http = require('http');
+
+// Render va Cron-job uchun soxta server
+http.createServer((req, res) => {
+    res.write("Bot is running!");
+    res.end();
+}).listen(process.env.PORT || 3000);
+
 const { Telegraf } = require('telegraf');
 const fs = require('fs');
 
