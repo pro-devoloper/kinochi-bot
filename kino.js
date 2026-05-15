@@ -2,7 +2,7 @@ const http = require('http');
 const { Telegraf, Markup } = require('telegraf');
 const fs = require('fs');
 
-// --- 1. RENDER UCHUN SERVER ---
+// --- 1. RENDER UCHUN SERVER 
 http.createServer((req, res) => {
     res.write("Bot is running!");
     res.end();
