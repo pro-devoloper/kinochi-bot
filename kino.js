@@ -12,8 +12,8 @@ const bot = new Telegraf('7337793362:AAGyAfMT1eYRuXrcyuQMfliYEnCbyze6Cv0');
 const ADMIN_ID = 5298159692; 
 
 // --- SOZLAMALAR ---
-const TG_CHANNEL = 'https://t.me/darkcinema1'; // Telegram kanal username (@ bilan)
-const INSTA_URL = '@darkcinema1'; // Instagram profil linki
+const TG_CHANNEL = '@darkcinema1'; // Telegram kanal username (@ bilan)
+const INSTA_URL = 'https://www.instagram.com/darkecinema'; // Instagram profil linki
 const DB_FILE = './kinolar.json';
 const USERS_FILE = './users.json';
 
