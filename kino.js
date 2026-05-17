@@ -8,7 +8,7 @@ http.createServer((req, res) => {
     res.end();
 }).listen(process.env.PORT || 3000);
 
-const bot = new Telegraf('7337793362:AAGyAfMT1eYRuXrcyuQMfliYEnCbyze6Cv0');
+const bot = new Telegraf('8974854988:AAFV8YuABL-HLPclIiHRWd7aVa2eC_bnh3g');
 const ADMIN_ID = 5298159692; 
 
 // --- SOZLAMALAR ---
